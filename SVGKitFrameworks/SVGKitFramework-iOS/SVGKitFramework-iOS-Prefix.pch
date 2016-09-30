@@ -14,9 +14,6 @@
     #import <Foundation/Foundation.h>
     #import <CocoaLumberjack/CocoaLumberjack.h>
 
-    #define LOG_ASYNC_ENABLED NO
-    #define LOG_LEVEL_DEF NO
-
     #define SVGKIT_LOG_CONTEXT 556
 
     #define SVGKitLogError(frmt, ...)   LOG_MAYBE(NO,                LOG_LEVEL_DEF, DDLogFlagError,   SVGKIT_LOG_CONTEXT, nil, __PRETTY_FUNCTION__, frmt, ##__VA_ARGS__)
